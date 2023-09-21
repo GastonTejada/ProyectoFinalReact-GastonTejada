@@ -1,0 +1,23 @@
+.cartWidget {
+    display: flex;
+    margin-right: 40px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cartWidget p { 
+    color:white;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 8px;
+    position: relative;
+    top: -4px;
+    left: -10px;
+    width: 1.8em;
+    height: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

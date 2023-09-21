@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Work+Sans:ital,wght@1,500&display=swap');
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+  }
+  
+  .logo h1{
+    font-family: lobster,sans-serif;
+    width: 450px;
+    font-size: 60px;
+    margin-left: -20px;
+    color:#FFFFFF;
+    text-decoration: none;
+  }
+  
+  .logo img{
+    float: left;
+    width: 200px;
+    font-size: 40px;
+  }
+  
+  .subtitulo h6{
+    margin-left: -230px;
+    margin-top: 70px;
+    color:#FFFFFF;
+  }
+  
+  nav.navbar{
+    background: url('../../images/Metallic-texture.jpg')  fixed;
+    box-shadow: 0 10px 6px -6px rgba(6,4,12,0.001);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 15;
+    border-bottom: 0.2em solid rgb(170, 159, 159); 
+  }
+  
+  .navbar-nav{
+    margin-left: -20px;
+  }
+  
+  .nav-item a{
+    font-family: sans-serif;
+    font: bolder;
+    font-size: 25px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-content: space-between;
+    margin-right: 1.2em;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .nav-item a:hover{
+    color: #f0311e;
+  }
+  
+  .nav-item a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #f0311e;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out;
+  }
+  
+  .nav-item a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  a.navlink.selected {
+    color: #f0311e;
+  }

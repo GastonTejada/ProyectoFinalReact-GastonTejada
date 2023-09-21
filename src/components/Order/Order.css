@@ -1,0 +1,169 @@
+.cnt-principal{
+    background: url('../../images/Metallic-texture.jpg') no-repeat center fixed;
+    background-size: cover;
+    font-family: "roboto", sans-serif;   
+    min-width: 100%;
+    min-height: 100vh;        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont-order {    
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-inline: 1.5rem;    
+    color: antiquewhite;
+    border: solid 1px antiquewhite;
+    font-family: "roboto", sans-serif;
+    font-weight: bolder;
+    box-shadow: 5px 5px 15px gray;
+    border-radius: 25px;
+    margin-top:130px;
+    width: 35em;
+    height: 30em;
+}
+
+.title {
+    top: 1em;
+    margin-top: -.5em;
+    margin-bottom: .3em;
+    text-decoration: underline ;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    align-items: center;
+}
+
+.finalCompra{
+    background-color: red;
+    color: antiquewhite;
+    font: bold;    
+    width: 14em;
+    height: 2.5em;
+    border-radius: 10px ;
+    border: none;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.volverInicio2{
+    display:flex;
+    align-content: center;    
+    justify-content: center;
+    width: 40%;
+    font-size: 1em;    
+    font-family: 'roboto',sans-serif;
+    color: #f0311e;
+    cursor: pointer;
+    text-decoration: none;
+    transform: translate(100%);
+  }
+
+  .inputbox {
+    position: relative;
+    width: 18rem;
+  }
+  
+  .inputbox input {
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+  }
+  
+  .inputbox span {
+    position: absolute;
+    left: 0;
+    padding: 20px 10px 10px;
+    font-size: 1em;
+    color: antiquewhite;
+    letter-spacing: 00.05em;
+    transition: 0.5s;
+    pointer-events: none;
+  }
+  
+  .inputbox input:valid ~span,
+  .inputbox input:focus ~span {
+    color: antiquewhite;
+    transform: translateX(-10px) translateY(-24px);
+    font-size: 0,75em;
+  }
+  
+  .inputbox i {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: antiquewhite;
+    border-radius: 4px;
+    transition: 0.5s;
+    pointer-events: none;
+    z-index: 9;
+  }
+  
+  .inputbox input:valid ~i,
+  .inputbox input:focus ~i {
+    height: 40px;
+  }
+
+  .cont-final{
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-inline: 1.5rem;    
+    color: antiquewhite;
+    border: solid 1px antiquewhite;
+    font-family: "roboto", sans-serif;
+    font-weight: bolder;
+    box-shadow: 5px 5px 15px gray;
+    border-radius: 25px;
+    margin-top:130px;
+    width: 35em;
+    height: 30em; 
+    & h5{
+      margin-bottom: 1em;
+    }
+  }
+
+ .img_final{
+  width: 20em;
+  margin-bottom: .5em;
+ }
+
+ .carritoLleno{
+  filter: invert(100%);  
+  width: 1.5em;
+  height: 1.5em;
+  gap: 3em;
+  transform: translateX(-50%);
+ }
+
+ .home{
+  filter: invert(100%);  
+  width: 1.8em;
+  height: 1.8em;
+  gap: 3em;
+  transform: translateX(-50%);
+ }

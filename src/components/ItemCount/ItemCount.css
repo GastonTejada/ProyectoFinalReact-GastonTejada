@@ -1,0 +1,86 @@
+.item-count{
+    display: flex;
+    align-items: center;  
+    gap: 2rem
+  }
+  
+  .item-count .sumaResta{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 2rem;
+    background-color: #f0311e;
+    border: 1px solid whitesmoke;
+    padding: 1rem;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 100%;
+    line-height: 1;
+    transition: .2s;
+    margin-top: -0.5em;
+  }
+  
+  .item-count .sumaResta:hover{
+    background-color: whitesmoke;
+    color: #f0311e;
+    border: 1px solid #f0311e;
+  }
+  
+  .item-count .sumaResta:active{
+    transform: translateY(5px);
+    color: whitesmoke;;
+    background-color: #0e2d48;  
+    border: 1px solid whitesmoke;
+  }
+  
+  .item-count .sumaResta:active::before{
+    transform: translateY(0);
+  }
+  
+  .agregarCarrito{
+    width: max-content;
+    background-color: #f0311e;
+    border: 1px solid whitesmoke;
+    padding: .5rem;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: .8rem;
+    transition: .2s;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    justify-content:flex-end;
+    justify-items: end;
+    font-size: 1.5rem;
+    background-color: #f0311e;
+    border: 1px solid whitesmoke;
+    padding: .5rem;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: .5rem;
+    line-height: 1;
+    transition: .2s;
+    margin-top: -0.5em;
+    margin-left: 2em;
+  }
+  
+  .agregarCarrito:hover{
+    background-color: whitesmoke;
+    color: #f0311e;
+    border: 1px solid #f0311e;
+  }
+  
+  .agregarCarrito:active{
+    transform: translateY(5px);
+    color: whitesmoke;;
+    background-color: #0e2d48;
+    border: 1px solid whitesmoke;
+  }
+  
+  .agregarCarrito:active::before{
+    transform: translateY(0);
+  }
+  
